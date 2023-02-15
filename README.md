@@ -1,2 +1,2 @@
-# etoile
-Etoile website
+# LocalZero
+LocalZero website
