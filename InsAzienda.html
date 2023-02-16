@@ -21,7 +21,7 @@
     
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
               <li><a href="index.html" class="nav-link px-2 text-white">Home</a></li>
-              <li><a href="aziendeVicine" class="nav-link px-2 text-white">Aziende vicine</a></li>
+              <li><a href="aziendeVicine.html" class="nav-link px-2 text-white">Aziende vicine</a></li>
               <li><a href="shop.html" class="nav-link px-2 text-white">Shop</a></li>
               <li><a href="InsAzienda.html" class="nav-link px-2 text-white">Inserisci la tua azienda</a></li>
               <li><a href="aboutUs.html" class="nav-link px-2 text-white">About us</a></li>
@@ -38,6 +38,117 @@
           </div>
         </div>
       </header>
+
+
+
+
+      <!--Introduzione al form-->
+
+
+
+      <!-- FORM per l'inserimento dell'azienda nella piattaforma  -->
+
+    <div class = "container mt-3" >
+
+        <div style="text-align: center; margin-top: 8; margin-bottom: 16;">Sei interessato ad inserire la tua azienda nel nostro sito? Compila il seguente form per inviarci una richiesta.</div>
+
+
+
+      <div class="row g-3">
+        <div class="col-sm-12 col-md-6">
+          <label for="NomeAzienda" class="form-label">Nome dell'azienda</label>
+          <input type="text" class="form-control" id="NomeAzienda" placeholder="" value="" required="">
+          <div class="invalid-feedback">
+            Nome dell'azienda non valido.
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="you@example.com">
+            <div class="invalid-feedback">
+                Inserire un indirizzo email valido
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6">
+            <label for="stato" class="form-label">Stato</label>
+            <select class="form-select" id="stato" required="">
+              <option value="">Scegli...</option>
+              <option>Italia</option>
+            </select>
+            <div class="invalid-feedback">
+              Selezionare uno stato valido.
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6">
+          <label for="Provincia" class="form-label"> Provincia </label>
+          <select class="form-select" id="provincia" required="">
+            <option value="">Scegli...</option>
+            <option>Agrigento (AG)</option>
+            <option>Caltanissetta (CL)</option>
+            <option>Catania (CT)</option>
+            <option>Enna (EN)</option>
+            <option>Messina (ME)</option>
+            <option>Palermo (PA)</option>
+            <option>Ragusa (RG)</option>
+            <option>Siracusa (SR)</option>
+            <option>Trapani (TP)</option>
+          </select>
+          <div class="invalid-feedback">
+            Selezionare una provincia valida.
+          </div>
+        </div>
+
+
+        <div class="col-sm-12 col-md-6">
+            <label for="indirizzo" class="form-label">Indirizzo</label>
+            <input type="text" class="form-control" id="indirizzo" required="">
+            <div class="invalid-feedback">
+                Inserire un indirizzo valido
+            </div>
+        </div>
+
+
+        <div class="col-sm-12 col-md-6">
+            <label for="numTel" class="form-label">Numero di telefono</label>
+            <input type="tel" class="form-control" id="numTel" required="">
+            <div class="invalid-feedback">
+                Inserire un numero di telefono valido
+            </div>
+        </div>
+
+
+        <div class="col-sm-12 col-md-6">
+            <label for="logo" class="form-label">Inserire il logo aziendale</label>
+            <input type="file" class="form-control" style="border-style: dashed; height: 200px;" id="logo" required="">
+            <div class="invalid-feedback">
+                Inserire un immagine
+            </div>
+        </div>
+
+
+        <div class="col-sm-12 col-md-6">
+            <label for="descrizione" class="form-label">Inserire una descrizione aziendale</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" style="height: 200px;"></textarea>
+            <div class="invalid-feedback">
+                Inserire una descrizione
+            </div>
+        </div>
+    
+    
+        <div class="col-sm-12" style="text-align: center;">
+            <button class="btn btn-primary center" type="submit">Invia richiesta</button>
+        </div>
+    
+
+      </div>
+    </div>
+
+
+
+
 
 
 
