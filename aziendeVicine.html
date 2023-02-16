@@ -21,7 +21,7 @@
     
             <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
               <li><a href="index.html" class="nav-link px-2 text-white">Home</a></li>
-              <li><a href="aziendeVicine" class="nav-link px-2 text-white">Aziende vicine</a></li>
+              <li><a href="aziendeVicine.html" class="nav-link px-2 text-white">Aziende vicine</a></li>
               <li><a href="shop.html" class="nav-link px-2 text-white">Shop</a></li>
               <li><a href="InsAzienda.html" class="nav-link px-2 text-white">Inserisci la tua azienda</a></li>
               <li><a href="aboutUs.html" class="nav-link px-2 text-white">About us</a></li>
@@ -60,31 +60,236 @@
             
             <div class="row g-3">
 
-                <div class="col-md-9">
+              <!--Filtra-->
+
+              <div class="col-lg-4 col-md-6 col-sm-12 w-100">
+                <div class="p-5 bg-light border rounded-3">
+
+                    <h4>Filtra:</h4>
+                        
+                    <label for="Provincia" class="form-label">Per provincia </label>
+                    <select class="form-select" id="provincia" required="">
+                        <option value="">Scegli...</option>
+                        <option>Agrigento (AG)</option>
+                        <option>Caltanissetta (CL)</option>
+                        <option>Catania (CT)</option>
+                        <option>Enna (EN)</option>
+                        <option>Messina (ME)</option>
+                        <option>Palermo (PA)</option>
+                        <option>Ragusa (RG)</option>
+                        <option>Siracusa (SR)</option>
+                        <option>Trapani (TP)</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Selezionare una provincia valida.
+                    </div>
+
+                    <br>
+                    <label for="Prodotti" class="form-label"> Per prodotto</label>
+
+                    <div class="row">
+
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="Mele">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                Mele
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="Pere">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                Pere
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="Insalata">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                Insalata
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="Pomodori">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                Pomodori
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="Formaggi">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                Formaggi
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="Latte">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                Latte
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="Uova">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                Uova
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="Gelato">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                Gelato
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="Tartufo">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                Tartufo
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="Cereali">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                Cereali
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="Bibite">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                Bibite
+                                </label>
+                            </div>
+                        
+                        </div>
+
+
+                        <div class="col-md-6 col-lg-6 col-sm-6">
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="Pane">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                Pane
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="Farina">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                Farina
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="Carne">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                Carne
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="Marmellata">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                Marmellata
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="Dolci">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                Dolci
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="Miele">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                Miele
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="Funghi">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Funghi
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="Olio">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                Olio
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="Biscotti">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                Biscotti
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="Yougurt">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                Yougurt
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="Burro">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                Burro
+                                </label>
+                            </div>
+
+                        
+                        </div>
+
+                        <button class="btn btn-primary center mt-3" type="submit"> Filtra </button>
+
+                    </div>
+
+                </div>
+            </div>
+
+              <!--Aziende-->
+
+                <div class="col-md-8 w-100">
 
                     <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                         <div class="col-auto d-none d-lg-block">
-                            <svg class="bd-placeholder-img" width="200" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                          <img src="Media/aziendeVicine/Scollo.png" class="card-img-top" width="250" height="250" alt="...">
                         </div>
                         <div class="col p-4 d-flex flex-column position-static">
-                          <strong class="d-inline-block mb-2 text-primary">World</strong>
-                          <h3 class="mb-0">Featured post</h3>
-                          <div class="mb-1 text-muted">Nov 12</div>
-                          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                          <a href="#" class="stretched-link">Continue reading</a>
+                            <strong class="d-inline-block mb-2 text-primary">Pedagaggi (SR)</strong>
+                            <h3 class="mb-0"> Scollo </h3>
+                            <div class="mb-1 text-muted">Mele, Arance, Olio </div>
+                            <p class="card-text mb-auto">L’Azienda Agricola Scollo Sebastiana, nata prima di noi stessi, nel 1983, vuole garantire l’esperienza tramandataci dai nostri genitori.
+                              Il nostro obiettivo è quello di riportare alla mente la nostra cara Sicilia e il piacere di stare insieme, sposando così una filosofia che avvicini l’uomo all’ambiente. Produciamo, infatti, prevalentemente prodotti biologici, in favore del rispetto e della salvaguardia tanto del consumatore quanto della nostra amata terra. <br>
+                          <a href="#" class="stretched-link">Scopri di più</a>
                         </div>
                     </div>
 
                     <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                         <div class="col-auto d-none d-lg-block">
-                            <svg class="bd-placeholder-img" width="200" height="200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                            <img src="Media/aziendeVicine/SiciliaAgrumi.png" class="card-img-top" width="250" height="250" alt="...">
                         </div>
                         <div class="col p-4 d-flex flex-column position-static">
-                          <strong class="d-inline-block mb-2 text-primary">World</strong>
-                          <h3 class="mb-0">Featured post</h3>
-                          <div class="mb-1 text-muted">Nov 12</div>
-                          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                          <a href="#" class="stretched-link">Continue reading</a>
+                          <strong class="d-inline-block mb-2 text-primary">Solarino (SR)</strong>
+                          <h3 class="mb-0">Sicilia Agrumi</h3>
+                          <div class="mb-1 text-muted">Biscotti, Marmellata, Olio</div>
+                          <p class="card-text mb-auto">Gli agrumi venduti sul nostro shop online non sono trattati con nessun prodotto chimico, la buccia è totalmente edibile e adatta a qualsiasi scopo alimentare!
+                            Ogni prodotto tipico è frutto di una ricerca continua, le materie prime utilizzate vengono rigororosamente selezionate per garantire il più alto livello qualitativo.
+                          </p>
+                          <a href="#" class="stretched-link">Scopri di più</a>
                         </div>
                     </div>
 
@@ -116,203 +321,7 @@
 
                 </div>
 
-                <div class="col-md-3 col-sm-6">
-                    <div class="p-5 bg-light border rounded-3">
-    
-                        <h4>Filtra:</h4>
-                            
-                        <label for="Provincia" class="form-label">Per provincia </label>
-                        <select class="form-select" id="provincia" required="">
-                            <option value="">Scegli...</option>
-                            <option>Agrigento (AG)</option>
-                            <option>Caltanissetta (CL)</option>
-                            <option>Catania (CT)</option>
-                            <option>Enna (EN)</option>
-                            <option>Messina (ME)</option>
-                            <option>Palermo (PA)</option>
-                            <option>Ragusa (RG)</option>
-                            <option>Siracusa (SR)</option>
-                            <option>Trapani (TP)</option>
-                        </select>
-                        <div class="invalid-feedback">
-                            Selezionare una provincia valida.
-                        </div>
-    
-                        <br>
-                        <label for="Prodotti" class="form-label"> Per prodotto</label>
-    
-                        <div class="row g-3">
-    
-                            <div class="col-md-6 col-sm-3">
-    
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="Mele">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                    Mele
-                                    </label>
-                                </div>
-    
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="Pere">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                    Pere
-                                    </label>
-                                </div>
-    
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="Insalata">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                    Insalata
-                                    </label>
-                                </div>
-    
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="Pomodori">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                    Pomodori
-                                    </label>
-                                </div>
-    
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="Formaggi">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                    Formaggi
-                                    </label>
-                                </div>
-    
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="Latte">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                    Latte
-                                    </label>
-                                </div>
-    
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="Uova">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                    Uova
-                                    </label>
-                                </div>
-    
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="Gelato">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                    Gelato
-                                    </label>
-                                </div>
-    
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="Tartufo">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                    Tartufo
-                                    </label>
-                                </div>
-    
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="Cereali">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                    Cereali
-                                    </label>
-                                </div>
-    
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="Bibite">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                    Bibite
-                                    </label>
-                                </div>
-                            
-                            </div>
-    
-    
-                            <div class="col-md-6 col-sm-3">
-    
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="Pane">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                    Pane
-                                    </label>
-                                </div>
-    
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="Farina">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                    Farina
-                                    </label>
-                                </div>
-    
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="Carne">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                    Carne
-                                    </label>
-                                </div>
-    
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="Marmellata">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                    Marmellata
-                                    </label>
-                                </div>
-    
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="Dolci">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                    Dolci
-                                    </label>
-                                </div>
-    
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="Miele">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                    Miele
-                                    </label>
-                                </div>
-    
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="Funghi">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                        Funghi
-                                    </label>
-                                </div>
-    
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="Olio">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                    Olio
-                                    </label>
-                                </div>
-    
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="Biscotti">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                    Biscotti
-                                    </label>
-                                </div>
-    
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="Yougurt">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                    Yougurt
-                                    </label>
-                                </div>
-    
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="" id="Burro">
-                                    <label class="form-check-label" for="flexCheckDefault">
-                                    Burro
-                                    </label>
-                                </div>
-    
-                            
-                            </div>
-    
-                            <button class="btn btn-primary center mt-3" type="submit"> Filtra </button>
-    
-                        </div>
-    
-                    </div>
-                </div>
+               
 
             </div>
         
