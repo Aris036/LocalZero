@@ -32,9 +32,119 @@
             </form>
     
             <div class="text-end">
-              <button type="button" class="btn btn-outline-light me-2">Login</button>
-              <button type="button" class="btn btn-warning">Sign-up</button>
+              
+                            
+              
+              
+              <!-- LOGIN -->
+              
+              <svg xmlns="http://www.w3.org/2000/svg" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" type="button" width="24" height="24" fill="currentColor" class="bi bi-person-fill" style="margin-left: 5;" viewBox="0 0 16 16">
+                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+              </svg>
+              
+              <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                  
+                <form class="center" style="text-align: center;">
+                  
+                  <img class="mb-4" src="Media/Logo.png" alt="" width="75" height="75">
+                  <h1 class="h3 mb-3 fw-normal" style="color: black;">Please sign in</h1>
+                  <div class="form-floating mt-4 mb-4">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput" style="color: black;">Email address</label>
+                  </div>
+                  <div class="form-floating mb-4">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                    <label for="floatingPassword" style="color: black;">Password</label>
+                  </div>
+              
+                  <div class="checkbox mb-3">
+                    <label style="color: black !important;">
+                      <input type="checkbox" value="remember-me" > Remember me
+                    </label>
+                  </div>
+                  <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+                  <p class="mt-5 mb-3 text-muted">© 2023</p>
+                </form>  
+                  
+                  
+              </div>
+              
+              <!-- CARRELLO  -->
+              
+              <svg xmlns="http://www.w3.org/2000/svg" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling2" aria-controls="offcanvasScrolling" type="button"  width="24" height="24" fill="currentColor" class="bi bi-cart-fill" style="margin-left: 5;" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+              </svg>
+    
+              <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling2" aria-labelledby="offcanvasScrollingLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                  
+                  
+                <div class="center" style="text-align: center;">
+                  <h4 class="d-flex justify-content-between align-items-center mb-3">
+                    <span class="text-primary">Il tuo carrello</span>
+                    <span class="badge bg-primary rounded-pill">3</span>
+                  </h4>
+                  <ul class="list-group mb-3">
+                      <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                         <h6 class="my-0" style="text-align: left;">Mele</h6>
+                           <small class="text-muted">500 gr x 4 (1KG = 2€)</small>
+                        </div>
+                        <span class="text-muted">€4</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                          <h6 class="my-0" style="text-align: left;">Arance</h6>
+                          <small class="text-muted">2kg x 3 (1KG = 2€) </small>
+                        </div>
+                        <span class="text-muted">€12</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between lh-sm">
+                        <div>
+                          <h6 class="my-0" style="text-align: left;"> Olio </h6>
+                          <small class="text-muted"> 5L x 1 (7€/L)</small>
+                        </div>
+                        <span class="text-muted">€35</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between bg-light">
+                        <div class="text-success">
+                          <h6 class="my-0" style="text-align: left;">Codice promozionale:</h6>
+                          <small>BENVENUTO</small>
+                        </div>
+                        <span class="text-success">−€5</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between">
+                        <span>Total (EUR)</span>
+                        <strong>€46</strong>
+                      </li>
+                    </ul>
+            
+            
+                    <h6 style="color: black">Inserire il codice promozionale:</h6>
+                    <form class="card p-2">
+                      <div class="input-group">
+                        <input type="text" class="form-control" placeholder="BENVENUTO">
+                        <button type="submit" class="btn btn-secondary" id="btnRiscatta">Riscatta</button>
+                      </div>
+                    </form>
+                    <button class="btn btn-primary" type="submit">Vai al pagamento</button>
+                  </div>
+                  
+          
+                  </form>
+                  
+                  
+              </div>
             </div>
+
+
           </div>
         </div>
       </header>
@@ -47,11 +157,271 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+        
+        
+        
+        
+        
+      
+
+        <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class="active" aria-current="true"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+              <div class="container">
+                <div class="carousel-caption text-start">
+                  <h1>Example headline.</h1>
+                  <p>Some representative placeholder content for the first slide of the carousel.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Another example headline.</h1>
+                  <p>Some representative placeholder content for the second slide of the carousel.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item active">
+              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg>
+              <div class="container">
+                <div class="carousel-caption text-end">
+                  <h1>One more for good measure.</h1>
+                  <p>Some representative placeholder content for the third slide of this carousel.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      
+      
+        <!-- Marketing messaging and featurettes
+        ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+      
+        <div class="container marketing">
+      
+          
+      
+      
+          <!-- Prima riga -->
+            
+          <div class="row featurette">
+            <div class="col-md-7">
+              <div class="container">
+                <h2 class="featurette-heading fw-normal lh-1 mb-4">Perchè scegliere prodotti a km 0?</h2>
+                <p class="lead">Scegliere di acquistare prodotti a km 0 significa sostenere l'agricoltura locale e la comunità circostante. Gli alimenti a km 0 vengono coltivati e prodotti localmente, spesso da piccoli agricoltori e produttori, che mantengono viva la tradizione gastronomica del territorio e utilizzano metodi di coltivazione sostenibili.
+
+                  Inoltre, i prodotti a km 0 sono freschi e di stagione, poiché non devono essere trasportati a lungo e non vengono conservati per periodi prolungati. Ciò significa che i prodotti conservano il loro sapore originale e sono più nutrienti rispetto a quelli che viaggiano per lunghe distanze.
+                </p>
+                  <a href="shop.html" class="btn btn-primary mt-4"> Vai allo Shop </a>
+                
+              </div>
+            </div>
+            
+            <div class="col-md-5">
+              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+            </div>
+          </div>
+      
+          <hr class="featurette-divider">
+      
+      
+          <!-- Seconda Riga -->
+      
+      
+          <div class="row featurette ">
+            <div class="col-md-7 order-md-2">
+              <div class="container">
+                <h2 class="featurette-heading fw-normal lh-1"> Acquistali di persona </h2>
+                <p class="lead"> Acquistare i prodotti a km 0 di persona è un'esperienza unica che offre molteplici benefici.
+                  Innanzitutto, visitare un mercato locale o un'azienda agricola ci consente di scegliere personalmente i prodotti più freschi e di qualità, a seconda delle nostre esigenze e gusti. Possiamo vedere con i nostri occhi come i produttori locali coltivano e lavorano i loro prodotti, comprendendo meglio i processi e l'attenzione che questi impiegano per offrirci il meglio.
+                </p>
+                <a href="aziendeVicine.html" class="btn btn-primary mt-4"> Trova le aziende vicine </a>
+              </div>
+            </div>
+            <div class="col-md-5 order-md-1">
+              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+            </div>
+          </div>
+      
+          <hr class="featurette-divider">
+      
+      
+          <!-- TERZA RIGA -->
+      
+      
+          <div class="row featurette">
+            <div class="col-md-7">
+              <div class="container">
+                <h2 class="featurette-heading fw-normal lh-1"> Volete inserire la vostra azienda?</h2>
+                <p class="lead">Se desiderate far conoscere la vostra attività a un pubblico più vasto, inserire la vostra azienda nel nostro sito è il modo migliore per farlo.
+
+                  Il processo di inserimento è semplice e gratuito: tutto ciò che dovete fare è compilare il nostro form di registrazione con le informazioni sull'azienda e i dettagli di contatto. Una volta completato il processo di registrazione, la vostra azienda verrà presentata ai nostri utenti e avrete l'opportunità di ampliare la vostra visibilità online.</p>
+                <a href="InsAzienda.html" class="btn btn-primary mt-4"> Vai al form </a>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+            </div>
+          </div>
+      
+          <hr class="featurette-divider">
+      
+          <!-- /END THE FEATURETTES -->
+      
+        </div><!-- /.container -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--BacktoTopButton-->
+        
+        <button type="button" class="btn btn-primary btn-floating btn-lg rounded-5" id="btn-back-to-top" style="display: block;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+              <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"></path>
+          </svg>
+        </button>
+
+
+
+
+
+
+
       <!-- FOOTER -->
 
       <footer class="py-5">
-        <div class="row">
-          <div class="col-6 col-md-2 mb-3">
+        <div class="row gx-0">
+          <div class="col-6 col-md-2 mb-1">
             <h5>Section</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
@@ -62,7 +432,7 @@
             </ul>
           </div>
     
-          <div class="col-6 col-md-2 mb-3">
+          <div class="col-6 col-md-2 mb-2">
             <h5>Section</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
@@ -73,7 +443,7 @@
             </ul>
           </div>
     
-          <div class="col-6 col-md-2 mb-3">
+          <div class="col-6 col-md-2 mb-2">
             <h5>Section</h5>
             <ul class="nav flex-column">
               <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
@@ -84,7 +454,7 @@
             </ul>
           </div>
     
-          <div class="col-md-5 offset-md-1 mb-3">
+          <div class="col-md-5 offset-md-1 mb-2">
             <form>
               <h5>Subscribe to our newsletter</h5>
               <p>Monthly digest of what's new and exciting from us.</p>
@@ -97,8 +467,7 @@
           </div>
         </div>
     
-        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-          <p>© 2022 Company, Inc. All rights reserved.</p>
+          <p>© 2023 LocalZero, Inc. All rights reserved.</p>
           <ul class="list-unstyled d-flex">
             <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
             <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>

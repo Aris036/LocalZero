@@ -5,3 +5,9 @@
   right: 5%;
   display: none;
 }
+
+#btn-whatsapp{
+position: fixed;
+bottom: 12.5%;
+right: 5%;
+}
