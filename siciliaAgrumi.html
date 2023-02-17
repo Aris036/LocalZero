@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8">
     <title>LocalZero</title>
-    <link rel="shortcut icon" href="Media/Logo.png"/>
+    <link rel="shortcut icon" href="Media/Logo1.png"/>
     <link rel="stylesheet" href="genericStyle.css">
     <link rel="stylesheet" href="Bootstrap.css">  
   </head>
@@ -12,32 +12,139 @@
 
           <!-- HEADER -->
 
-      <header class="p-3 bg-dark text-white">
-        <div class="container">
-          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
-            </a>
+          <header class="p-3 bg-dark text-white">
+            <div class="container">
+              <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start px-3">
+        
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0" style="vertical-align: middle;">
+                  <li><a href="index.html" class="nav-link" alt="..."> <img src="Media/Logo1.png" width="40" height="40"> </a></li>
+                  <li><a href="index.html" class="nav-link text-white mt-1">Home</a></li>
+                  <li><a href="aziendeVicine.html" class="nav-link text-white mt-1">Aziende vicine</a></li>
+                  <li><a href="shop.html" class="nav-link text-white mt-1">Shop</a></li>
+                  <li><a href="InsAzienda.html" class="nav-link text-white mt-1">Inserisci la tua azienda</a></li>
+                  <li><a href="aboutUs.html" class="nav-link text-white mt-1">About us</a></li>
+                </ul>
+        
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                  <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
+                </form>
+        
+                <div class="text-end">
+                  
+                                
+                  
+                  
+                  <!-- LOGIN -->
+                  
+                  <svg xmlns="http://www.w3.org/2000/svg" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling" type="button" width="24" height="24" fill="currentColor" class="bi bi-person-fill" style="margin-left: 15;" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+                  </svg>
+                  
+                  <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                    <div class="offcanvas-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                      
+                    <form class="center" style="text-align: center;">
+                      
+                      <img class="mb-4" src="Media/Logo.png" alt="" width="75" height="75">
+                      <h1 class="h3 mb-3 fw-normal" style="color: black;">Please sign in</h1>
+                      <div class="form-floating mt-4 mb-4">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput" style="color: black;">Email address</label>
+                      </div>
+                      <div class="form-floating mb-4">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword" style="color: black;">Password</label>
+                      </div>
+                  
+                      <div class="checkbox mb-3">
+                        <label style="color: black !important;">
+                          <input type="checkbox" value="remember-me" > Remember me
+                        </label>
+                      </div>
+                      <button class="w-100 btn btn-lg btn-primary mb-3" type="submit">Login</button>
+                      <button class="w-100 btn btn-lg btn-primary" type="submit">Registrati</button>
+                      <p class="mt-5 mb-3 text-muted">© 2023</p>
+                    </form>  
+                      
+                      
+                  </div>
+                  
+                  <!-- CARRELLO  -->
+                  
+                  <svg xmlns="http://www.w3.org/2000/svg" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling2" aria-controls="offcanvasScrolling" type="button"  width="24" height="24" fill="currentColor" class="bi bi-cart-fill" style="margin-left: 15;" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                  </svg>
+        
+                  <div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling2" aria-labelledby="offcanvasScrollingLabel">
+                    <div class="offcanvas-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                      
+                      
+                    <div class="center" style="text-align: center;">
+                      <h4 class="d-flex justify-content-between align-items-center mb-3">
+                        <span class="text-primary">Il tuo carrello</span>
+                        <span class="badge bg-primary rounded-pill">3</span>
+                      </h4>
+                      <ul class="list-group mb-3">
+                          <li class="list-group-item d-flex justify-content-between lh-sm">
+                            <div>
+                             <h6 class="my-0" style="text-align: left;">Mele</h6>
+                               <small class="text-muted">500 gr x 4 (1KG = 2€)</small>
+                            </div>
+                            <span class="text-muted">€4</span>
+                          </li>
+                          <li class="list-group-item d-flex justify-content-between lh-sm">
+                            <div>
+                              <h6 class="my-0" style="text-align: left;">Arance</h6>
+                              <small class="text-muted">2kg x 3 (1KG = 2€) </small>
+                            </div>
+                            <span class="text-muted">€12</span>
+                          </li>
+                          <li class="list-group-item d-flex justify-content-between lh-sm">
+                            <div>
+                              <h6 class="my-0" style="text-align: left;"> Olio </h6>
+                              <small class="text-muted"> 5L x 1 (7€/L)</small>
+                            </div>
+                            <span class="text-muted">€35</span>
+                          </li>
+                          <li class="list-group-item d-flex justify-content-between bg-light">
+                            <div class="text-success">
+                              <h6 class="my-0" style="text-align: left;">Codice promozionale:</h6>
+                              <small>BENVENUTO</small>
+                            </div>
+                            <span class="text-success">−€5</span>
+                          </li>
+                          <li class="list-group-item d-flex justify-content-between">
+                            <span>Total (EUR)</span>
+                            <strong>€46</strong>
+                          </li>
+                        </ul>
+                
+                
+                        <h6 style="color: black">Inserire il codice promozionale:</h6>
+                        <form class="card p-2">
+                          <div class="input-group">
+                            <input type="text" class="form-control" placeholder="BENVENUTO">
+                            <button type="submit" class="btn btn-secondary" id="btnRiscatta">Riscatta</button>
+                          </div>
+                        </form>
+                        <button class="btn btn-primary" type="submit">Vai al pagamento</button>
+                      </div>
+                      
+              
+                      </form>
+                      
+                      
+                  </div>
+                </div>
     
-            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="index.html" class="nav-link px-2 text-white">Home</a></li>
-              <li><a href="aziendeVicine.html" class="nav-link px-2 text-white">Aziende vicine</a></li>
-              <li><a href="shop.html" class="nav-link px-2 text-white">Shop</a></li>
-              <li><a href="InsAzienda.html" class="nav-link px-2 text-white">Inserisci la tua azienda</a></li>
-              <li><a href="aboutUs.html" class="nav-link px-2 text-white">About us</a></li>
-            </ul>
     
-            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-              <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search">
-            </form>
-    
-            <div class="text-end">
-              <button type="button" class="btn btn-outline-light me-2">Login</button>
-              <button type="button" class="btn btn-warning">Sign-up</button>
+              </div>
             </div>
-          </div>
-        </div>
-      </header>
+          </header>
 
 
 
@@ -200,62 +307,32 @@
 
       <!-- FOOTER -->
 
-      <footer class="py-5">
-        <div class="row gx-0">
-          <div class="col-6 col-md-2 mb-1">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-            </ul>
-          </div>
-    
-          <div class="col-6 col-md-2 mb-2">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-            </ul>
-          </div>
-    
-          <div class="col-6 col-md-2 mb-2">
-            <h5>Section</h5>
-            <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-            </ul>
-          </div>
-    
-          <div class="col-md-5 offset-md-1 mb-2">
-            <form>
-              <h5>Subscribe to our newsletter</h5>
-              <p>Monthly digest of what's new and exciting from us.</p>
-              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                <label for="newsletter1" class="visually-hidden">Email address</label>
-                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                <button class="btn btn-primary" type="button">Subscribe</button>
-              </div>
-            </form>
-          </div>
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <a href="index.html" class="nav-link" alt="..." style="margin-left: 4; margin-right: 4;"> <img src="Media/Logo1.png" width="50" height="50"> </a>  
+          </a>
+          <span class="mb-3 mb-md-0 text-muted">© 2023 LocalZero, Inc</span>
         </div>
     
-          <p>© 2023 LocalZero, Inc. All rights reserved.</p>
-          <ul class="list-unstyled d-flex">
-            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-          </ul>
-        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3 mx-3"><a class="text-muted" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="black" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+              </svg>
+            </a>
+          </li>
+
+          <li class="ms-3 mx-3"><a class="text-muted" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="black" class="bi bi-instagram" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+            </svg>
+           </a>
+          </li>
+        </ul>
       </footer>
+
+
+
+      <!-- Script -->
   </body>
   <script src="genericFun.js" charset="utf-8"></script>
   <script src="bootstrap.js" charset="utf-8"></script>
