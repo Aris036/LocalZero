@@ -15,3 +15,8 @@ right: 0.5%;
 .bi-bi-star-fill{
   margin-bottom: 24;
 }
+
+.bi:hover{
+  fill: #1C7C54 !important;  
+}
+
