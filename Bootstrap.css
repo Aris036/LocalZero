@@ -7217,7 +7217,7 @@ background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .border-top {
-  border-top:  var(--bs-border-width) var(--bs-border-style) #80aabb !important;
+  border-top:  var(--bs-border-width) var(--bs-border-style) black !important;
 }
 
 .border-top-0 {
