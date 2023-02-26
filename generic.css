@@ -16,7 +16,11 @@ right: 0.5%;
   margin-bottom: 24;
 }
 
-.bi:hover{
+.bi-instagram:hover{
+  fill: #1C7C54 !important;  
+}
+
+.bi-facebook:hover{
   fill: #1C7C54 !important;  
 }
 
